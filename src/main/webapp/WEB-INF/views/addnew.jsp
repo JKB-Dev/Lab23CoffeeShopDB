@@ -10,11 +10,11 @@
 
 <form action="addnewuser">
 Your Name: <input type="text" name="userName"><br>
-<input type="hidden" name="cID" value="${cID}">
+<%-- <input type="hidden" name="cID" value="${cID}"> --%>
 <input type="submit" value="Add">
 </form>
 
-${ customers }
+${ cID }
 
 </body>
 </html>

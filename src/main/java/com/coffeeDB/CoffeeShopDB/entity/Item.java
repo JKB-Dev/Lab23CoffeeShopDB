@@ -1,23 +1,23 @@
 package com.coffeeDB.CoffeeShopDB.entity;
 
-public class Items {
-	private int itemID;
+public class Item {
+	private int item_id;
 	private String name;
 	private String description;
 	private int quantity;
 	private String price;
 	
-	public Items () {
-		itemID = 0;
+	public Item () {
+		item_id = 0;
 		name = "";
 		description = "";
 		quantity = 0;
 		price = "";
 	}
 
-	public Items(int itemID, String name, String description, int quantity, String price) {
+	public Item(int item_id, String name, String description, int quantity, String price) {
 		super();
-		this.itemID = itemID;
+		this.item_id = item_id;
 		this.name = name;
 		this.description = description;
 		this.quantity = quantity;
@@ -26,12 +26,12 @@ public class Items {
 		
 	}
 
-	public int getItemID() {
-		return itemID;
+	public int getItem_id() {
+		return item_id;
 	}
 
-	public void setItemID(int itemID) {
-		this.itemID = itemID;
+	public void setItem_id(int item_id) {
+		this.item_id = item_id;
 	}
 
 	public String getName() {
@@ -68,7 +68,7 @@ public class Items {
 
 	@Override
 	public String toString() {
-		return "Items [itemID=" + itemID + ", name=" + name + ", description=" + description + ", quantity=" + quantity
+		return "Items [item_id=" + item_id + ", name=" + name + ", description=" + description + ", quantity=" + quantity
 				+ ", price=" + price + "]";
 	}
 	

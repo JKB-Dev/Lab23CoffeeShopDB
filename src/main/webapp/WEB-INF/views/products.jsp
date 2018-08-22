@@ -13,7 +13,7 @@
 
 
 <table border="1">
-	<c:forEach var="cust" items="${items}">
+	<c:forEach var="item" items="${items}">
 		<tr>
 			<td> ${ item.itemID }</td>
 			<td> ${ item.itemName }</td>
